@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Test</title>
+		<meta http-equiv="Content-Type" content="text/html">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<script src="picturefill.js" async></script>
+
+	</head>
+	<body>
+		<div class="container clear">
+			<div class="row fluid-bg clear">
+				<div class="cols col-12">
+					<h1>Привет! Я злобный тигр из джунглей!</h1>
+					<!--picturefill-->
+					<picture>
+	  				<source srcset="img/tiger1-xl.jpg" media="(min-width: 1000px)">
+	  				<source srcset="img/tiger1-l.jpg" media="(min-width: 800px)">
+						<source srcset="img/tiger1-m.jpg" media="(min-width: 500px)">
+	  				<img srcset="img/tiger1-s.jpg" alt="…">
+					</picture>
+				</div>
+			</div>
+				<div class="cols col-3">Три</div>
+				<div class="cols col-7">Cемь</div>
+				<div class="cols col-2">Два</div>
+		</div>
+	</body>
+</html>
